@@ -1,6 +1,6 @@
 {
   "name": "hyperapp-to-html",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Serialize hyperapp virtual nodes to html strings",
   "main": "dist.js",
   "license": "MIT",
