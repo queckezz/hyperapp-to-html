@@ -1,0 +1,28 @@
+{
+  "name": "hyperapp-to-html",
+  "version": "0.0.0",
+  "description": "Serialize hyperapp virtual nodes to html strings",
+  "main": "dist.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/queckezz/hyperapp-to-html"
+  },
+  "author": "queckezz <fabian.eichenberger@gmail.com>",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "buble": "^0.15.2",
+    "hyperapp": "^0.4.2",
+    "standard": "^8.6.0",
+    "tsml": "^1.0.1"
+  },
+  "scripts": {
+    "release": "npm run lint && xyz -m X.Y.Z",
+    "lint": "standard",
+    "prepublish": "buble index.js > dist.js",
+    "test": "ava"
+  },
+  "dependencies": {
+    "html-void-elements": "^1.0.1"
+  }
+}
