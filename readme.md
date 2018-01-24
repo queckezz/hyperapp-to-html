@@ -1,3 +1,4 @@
+**This project has been deprecated in favor of [hyperapp-render](https://github.com/frenzzy/hyperapp-render) since it built for the latest version of Hyperapp and support the same functionality and even more.**
 
 # hyperapp-to-html [![Build status][travis-image]][travis-url] [![NPM version][version-image]][version-url] [![Dependency Status][david-image]][david-url] [![License][license-image]][license-url] [![Js Standard Style][standard-image]][standard-url]
 
